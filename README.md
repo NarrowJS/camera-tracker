@@ -1,6 +1,6 @@
 ### Setting up Serial
-MacOS: `ser = /dev/SERIALPORT`
-Windows: `seri = COMx`
+MacOS: `ser = '/dev/SERIALPORT'`
+Windows: `ser = 'COMx'`
 
 ### Running Auto Tracking
 To run the auto tracking script you can choose between tiny and tiny-v4 which might work better depending on the situation.
