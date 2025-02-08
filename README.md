@@ -1,3 +1,6 @@
+### Getting Started
+After cloning the repo, create a folder named 'videos' in the root directory and setup the serial in both app.py and auto_track.py
+
 ### Setting up Serial
 MacOS: `ser = '/dev/SERIALPORT'`
 Windows: `ser = 'COMx'`
