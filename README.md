@@ -11,15 +11,9 @@
 ### Setting up Serial
 Depending on your OS the serial ports will have different names. Edit the `auto_track.py` and `app.py` script and change the `ser` variable at the top.
 <br>
-<<<<<<< HEAD
 MacOS: `ser = 'serial.Serial('/dev/SERIALPORT', 9600)`
 <br>
 Windows: `ser = 'serial.Serial('COMx', 9600)'`
-=======
-MacOS: `ser = '/dev/SERIALPORT'`
-<br>
-Windows: `ser = 'COMx'`
->>>>>>> 6410370ea25f9d4a86cf17b8eed211e1ab2f313d
 
 ### Running the Auto Tracking Script
 When running the auto tracking script you can choose between the **tiny** and **tiny-v4** hand tracking models. To start the tracking script make sure you have the Arduino plugged in and run:
@@ -36,8 +30,4 @@ To run the GUI that allows you to manually control the stepper motors make sure 
 ### Acknowledgments and Important Info
 This code is not maintained and is very unoptimized. It can be significantly improved to be much quicker and responsive.
 This project would also not be possible without the YOLO hand model made by Cansik: https://github.com/cansik/yolo-hand-detection
-<<<<<<< HEAD
-=======
-
->>>>>>> 6410370ea25f9d4a86cf17b8eed211e1ab2f313d
 
