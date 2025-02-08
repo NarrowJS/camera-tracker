@@ -1,4 +1,4 @@
-###Setting up Serial
+### Setting up Serial
 MacOS: `ser = /dev/SERIALPORT`
 Windows: `seri = COMx`
 
