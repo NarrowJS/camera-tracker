@@ -7,10 +7,10 @@ import uuid
 import os
 
 
-isMotorFree = True
+
 ser = serial.Serial('COM4', 9600) 
-# "COM4" Windows
-# "/dev/cu.usbmodem14101" Mac
+
+isMotorFree = True
 
 
 time.sleep(2)
