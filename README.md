@@ -15,6 +15,7 @@ To run the GUI that allows you to manually control the stepper motors run
 `python app.py`
 
 This code is not maintained and is very unoptimized. It can be significantly improved to be much quicker and responsive.
+
 Credit to Cansik for the YOLO hand model, check his repo out here: https://github.com/cansik/yolo-hand-detection
 
 
