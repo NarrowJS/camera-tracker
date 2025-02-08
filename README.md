@@ -1,24 +1,34 @@
 ### Getting Started
-After cloning the repo, create a folder named 'videos' in the root directory and setup the serial in both app.py and auto_track.py
+
+1. Clone the repo via `git clone https://github.com/NarrowJS/camera-tracker.git`.
+2. Flash the code inside of the **Arduino** folder to the Arduino.
+3. Create a folder named **videos** in the cloned repo's root directory.
+4. Make sure you have `Python` and `pip` installed and install the required libraries by running:
+   <br>
+   `pip install opencv-python pyserial pyqt5`
+   <br>
 
 ### Setting up Serial
+Depending on your OS the serial ports will have different names. Edit the `auto_track.py` and `app.py` script and change the `ser` variable at the top.
+<br>
 MacOS: `ser = '/dev/SERIALPORT'`
+<br>
 Windows: `ser = 'COMx'`
 
-### Running Auto Tracking
-To run the auto tracking script you can choose between tiny and tiny-v4 which might work better depending on the situation.
-
-To run the auto tracking script run
+### Running the Auto Tracking Script
+When running the auto tracking script you can choose between the **tiny** and **tiny-v4** hand tracking models. To start the tracking script make sure you have the Arduino plugged in and run:
+<br>
+<br>
 `python auto_track.py -n tiny` or `python auto_track.py -n v4-tiny`
 
-### Running the manual GUI
+### Running the Manually Controllable GUI
 
-To run the GUI that allows you to manually control the stepper motors run
+To run the GUI that allows you to manually control the stepper motors make sure the Arduino is plugged in and run:
 
 `python app.py`
 
+### Acknowledgments and Important Info
 This code is not maintained and is very unoptimized. It can be significantly improved to be much quicker and responsive.
-
-Credit to Cansik for the YOLO hand model, check his repo out here: https://github.com/cansik/yolo-hand-detection
+This project would also not be possible without the YOLO hand model made by Cansik: https://github.com/cansik/yolo-hand-detection
 
 
